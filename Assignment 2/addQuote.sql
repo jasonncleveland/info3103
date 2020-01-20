@@ -1,0 +1,8 @@
+DELIMITER //
+DROP PROCEDURE IF EXISTS addQuote //
+
+CREATE PROCEDURE addQuote(IN quoteIn VARCHAR(255))
+BEGIN
+    INSERT INTO quotes (quoteText) VALUES (quoteIn);
+END //
+DELIMITER ;

@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS quotes;
+CREATE TABLE quotes (
+    quoteId INT NOT NULL AUTO_INCREMENT,
+    quoteText VARCHAR(255) NOT NULL,
+    PRIMARY KEY (quoteId)
+);
