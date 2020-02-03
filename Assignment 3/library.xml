@@ -1,0 +1,34 @@
+<library
+    xmlns="https://info3103.cs.unb.ca"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://info3103.cs.unb.ca/jclevel2/a3/library.xml">
+    <book>
+        <title>Psychology: Themes and Variations</title>
+        <author>Wayne Weiten</author>
+        <author>Doug McCann</author>
+        <edition>4th</edition>
+        <discipline>Psychology</discipline>
+        <publisher>Nelson College Indigenous</publisher>
+        <sellercontact>
+            <name>Jane Doe</name>
+            <email>jane.doe@example.com</email>
+        </sellercontact>
+        <image>
+            <src>https://images-na.ssl-images-amazon.com/images/I/51XHyz-0XPL._SX377_BO1,204,203,200_.jpg</src>
+        </image>
+    </book>
+    <book>
+        <title>Calculus: Early Transcendentals</title>
+        <author>James Stewart</author>
+        <edition>8th</edition>
+        <discipline>Mathematics</discipline>
+        <publisher>Brooks Cole</publisher>
+        <sellercontact>
+            <name>John Smith</name>
+            <email>john.smith@example.com</email>
+        </sellercontact>
+        <image>
+            <src>https://images-na.ssl-images-amazon.com/images/I/41XZVHND-aL._SX423_BO1,204,203,200_.jpg</src>
+        </image>
+    </book>
+</library>
